@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+body{
+    max-width: 800px;
+    margin-left: 15%;
+   margin-right: 15%;
+}
+p{
+    font-size: x-large;
+    text-align: left;
+}
+h3{
+    text-align: left;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+.navlinks ul{
+    display: flex;
+    list-style-type: none;
+    }
+.navlinks ul li{
+    padding: 10px 10px;
+}
+span{
+    font-size: 50px;
+    color: rgb(5, 5, 99);
+}
+a{
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+a:hover{
+    background-color: rgb(240, 223, 223);
+    color: rgb(16, 7, 194);  
+}
+/*button{
+    display: flex;
+    padding: 10px 10px;
+    font-size: large;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+*/
+
+.logo img{
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    border-radius: 10px;
+}
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about {
+    display: block;
+    justify-content: space-around;
+}
+
+#experiences {
+    display: block;
+    justify-content: space-around;
+}
+
+#projects {
+    display: block;
+    justify-content: space-around;   
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image2 {
+    display: flex;
+    justify-content: space-between;
+}
+.Projects {
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 300px;
+    object-fit: cover;
+    width: 300px;
+    border-radius: 10px;
+}
+ 
+
