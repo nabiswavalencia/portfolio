@@ -5,7 +5,7 @@
     box-sizing: border-box;
   
 } 
-@media only screen and (min-width:360px) and (max-width:1250px) and (orientation:portrait){
+@media only screen and (min-width:360px),(max-width:1250px) and (orientation:portrait){
 body{
     max-width: 800px;
     margin-left: 15%;
