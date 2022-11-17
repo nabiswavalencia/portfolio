@@ -4,11 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
   
-}
+} 
+@media only screen and (min-width:360px) and (max-width:1250px) and (orientation:portrait){
 body{
     max-width: 800px;
     margin-left: 15%;
    margin-right: 15%;
+}
 }
 p{
     font-size: x-large;
